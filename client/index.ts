@@ -26,7 +26,7 @@ export class GameScene extends Phaser.Scene {
 
     async create() {
       try {
-        const client = new Client("ws://192.168.1.88:2567");
+        const client = new Client("ws://localhost:2567");
             
         console.log("Joining room...");
 
